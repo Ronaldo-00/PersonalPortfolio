@@ -6,8 +6,9 @@ Designed with a clean UI, smooth scrolling navigation, and mobile-friendly layou
 ---
 
 ## 🚀 Live Demo
-  https://ronaldo-00.github.io/PersonalPortfolio/
----
+
+This Web is Live at  https://ronaldo-00.github.io/PersonalPortfolio/
+
 
 ## ✨ Features
 
@@ -36,6 +37,7 @@ Designed with a clean UI, smooth scrolling navigation, and mobile-friendly layou
 
 ## 📂 Project Structure
 
+```text
 src/
 │── assets/
 │ ├── Images/
@@ -55,7 +57,7 @@ src/
 │── index.css
 │── main.jsx
 │
-
+````
 ## ▶️ How to Run the Project
 
 Follow the steps below to run the Payment Dashboard on your local machine.
@@ -69,7 +71,7 @@ git clone https://github.com/Ronaldo-00/PersonalPortfolio.git
 ### 2. Go to the Project Folder
 
 ```bash
-cd DashBoard
+cd PersonalPortfolio
 ```
 ### 3. Install Dependencies
 
