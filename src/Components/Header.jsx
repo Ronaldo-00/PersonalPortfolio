@@ -20,7 +20,7 @@ const closeToggle = () => {
     <div className="head-container">
       {/* Logo div */}
       <div className="logo">
-        <a href='/#about'><h3>Muthu Raman.A</h3></a>
+        <a href='#about'><h3>Muthu Raman.A</h3></a>
       </div>
       <button className="open-btn" onClick={openToggle}>&#9776;</button>
       <div className="navlinks" style={{ left: navLeft }}>
