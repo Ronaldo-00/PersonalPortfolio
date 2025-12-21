@@ -57,7 +57,16 @@ src/
 │── index.css
 │── main.jsx
 │
-````
+```
+### ⚙️ Prerequisites
+
+Before running this project, make sure you have the following installed on your system:
+
+- **Node.js** (version 16 or above)
+- **npm** 
+- A code editor 
+- git
+
 ## ▶️ How to Run the Project
 
 Follow the steps below to run the Payment Dashboard on your local machine.
@@ -75,22 +84,16 @@ cd PersonalPortfolio
 ```
 ### 3. Install Dependencies
 
+This Project use Node.js . Make sure Node is installed first
+
 ```bash
 npm install
-```
-### or
-```bash
-yarn
 ```
 
 ### 4.Start the Development Server
 
 ```bash
 npm run dev
-```
-### or
-```bash
-yarn dev
 ```
 
 ### 5.Open in Browser
