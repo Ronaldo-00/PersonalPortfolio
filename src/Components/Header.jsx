@@ -26,11 +26,11 @@ const closeToggle = () => {
       <div className="navlinks" style={{ left: navLeft }}>
         <button className="close-btn" onClick={closeToggle}>X</button>
         <ul className='flex gap-[40px] '>
-          <li><a href='#about'>Home</a></li>
-          <li><a href='#about'>About</a></li>
-          <li><a href='#skills'>Skills</a></li>
-          <li><a href='#projects'>Projects</a></li>
-          <li><a href='#contact'>Contact</a></li>
+          <li><a href='#about' onClick={closeToggle}>Home</a></li>
+          <li><a href='#about' onClick={closeToggle}>About</a></li>
+          <li><a href='#skills' onClick={closeToggle}>Skills</a></li>
+          <li><a href='#projects'onClick={closeToggle}>Projects</a></li>
+          <li><a href='#contact'onClick={closeToggle}>Contact</a></li>
         </ul>
         <div className='resume-div'>
           <a href={Resume}
